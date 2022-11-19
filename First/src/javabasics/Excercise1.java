@@ -1,14 +1,14 @@
 package javabasics;
 
 abstract class Shape {
-	public String color;
-	public void setColor(String color)
+	public String colors;
+	public void setColor(String colors)
 	{
-		this.color=color;
+		this.colors=colors;
 	}
 	public String getColor()
 	{
-		return color;
+		return colors;
 	}
 	public abstract double getParameter();
 	public abstract double getArea();
